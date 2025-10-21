@@ -2,21 +2,45 @@
 	<head>
 		<title>CSS Type</title>
 		<style>
-			h3 {
-			color : red;
-			text-align : left;
+			h1,h2, h3 {
+				color : purple;
+				text-align: center;
 			}
+			.one {
+				color:blue;
+			}
+			#two {
+			 color: pink;
+			}
+			*{
+			background:yellow;
+			}
+			
+			a:link{color:red}
+			a:hover{color:purple}
+			a:active{color:blue}
+			a:visited{color:green}
+			
+			h4::before{content: 'Welcome !Mr./Mrs. '}
+			h4::after{content:'. Have apleasant stay here:)'}
+			::selection{color:white; background:purple}
+			
+			
+			
 		</style>
-		<link href="demo.css" rel="stylesheet">
 	</head>
 	<body>
 	<h1>CSS DEMO</h1>
 	<hr>
-	<h2 style="color:whilte; background:purple; text-align:center">Just For Demo</h2>
-	<h2>CSS Demo for type Embedded/Internal</h2>
-	<h3>First h3 tag</h3>
-	<h3>Second h3 tag</h3>
-	<h3>Third h3 tag</h3>
-	<h3>Fourth h3 tag</h3>
+	<h2>Just For Demo</h2>
+	<h2>CSS Demo for Pseudo Types</h2>
+	<hr>
+	<h3><a href="html_demo.html">Click here to move the the html_demo.html</a></h3>
+	<hr>
+	<h2>Psuedo elements<h2>
+	<h4>Reddy</h4>
+	<h4>Sinha</h4>
+	<h4>Iyyar</h4>
+	
 	</body>
 </html>
